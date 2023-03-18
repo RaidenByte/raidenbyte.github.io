@@ -4,3 +4,10 @@ function alertButton(){
 
 
 }
+
+function alertButton1(){
+    alert("Fuck world")
+
+
+
+}
