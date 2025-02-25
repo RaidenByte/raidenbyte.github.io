@@ -3,8 +3,19 @@ import streamlit as st
 
 # 页面配置
 st.set_page_config(
+<<<<<<< HEAD
     initial_sidebar_state="collapsed",
     menu_items=None
+=======
+    page_title="Your App", 
+    page_icon="🎯",
+    initial_sidebar_state="collapsed",  # 初始折叠侧边栏
+    menu_items={
+        'Get Help': None,              # 隐藏右上角 "Get Help"
+        'Report a bug': None,          # 隐藏 "Report a bug"
+        'About': None                   # 隐藏 "About"
+    }
+>>>>>>> 494cd008cc48c85f0ccac2f00a46730dbf6a61ea
 )
 
 # 注入 CSS
